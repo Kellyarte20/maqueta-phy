@@ -1,0 +1,211 @@
+@import url(/css/style.css);
+@media (min-width: 700px){
+ body{
+     margin: auto;
+     overflow: hidden;
+ }
+.titulo{
+    color: var(--text-titulo-color);
+    font-weight: 500;
+}
+
+/*.banner_texto{
+    width: 100%;
+    height: 600px;
+    border: 1px solid salmon;
+}
+/*.texto_banner{
+    width: 50%;
+    border: 1px solid blueviolet;
+    text-align: left;
+    background: blueviolet; 
+    position: absolute;
+    display: none;
+    top: 40px;
+    left: 40px;
+    z-index: auto;
+}
+.banner_img{
+    height: 700px;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    border: 1px solid red;
+}*/
+
+.proveedor{
+    padding: 2rem;
+}
+.proveedor h2{
+    color: var(--text-titulo-color);
+    font-size: 3rem;
+    padding: 1rem;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cards a{
+    text-decoration: none;
+}
+.cards .titulo{
+    color: var(--text-titulo-color);
+    font-weight: 500;
+    font-size: 2rem;
+}
+.cards .cuerpo{
+    padding: 10px;
+}
+.cards .pie{
+    padding: 10px;
+}
+.tarjeta_uno{
+    width: 400px;
+    padding: 2px;
+    margin: 2rem;
+}
+.tarjeta_dos{
+    width: 400px;
+    padding: 2px; 
+    margin: 2rem; 
+}
+.tarjeta_uno_img{
+    width: 100%;
+}
+.pantallas{
+    display: flex;
+
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    height: auto;
+}
+.pantallas_img{ 
+    border: 1px solid blue;
+    width: 60%;
+    height: 800px;
+    display: block ;
+    flex-flow: row;
+
+}
+.pantallas_text{
+    border: 1px solid blue;
+    width: 40%;
+    height: 800px;
+}
+.satisfaccion{
+    padding: 10px;
+    background: blanchedalmond; 
+}
+.satisfaccion h2{
+    padding: 1rem;
+    color: var(--text-titulo-color);
+    font-size: 2rem;
+}
+.tarjetas_satisfaccion{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    justify-content: center;
+    color: var(--text-titulo-color);
+}
+.tarjetas_satisfaccion .titulo{
+    font-size: 30px;
+}
+.satisfaccion_tarjeta_img{
+    width: 100%; 
+}
+.satisfaccion_cuerpo{
+    width: 99%;
+    padding: 10px;
+    font-size: 20px;
+}
+.satisfaccion_tarjeta_uno{
+ width: 30%;
+ border: 1px solid seagreen;
+ margin: 1rem;
+ background:magenta;
+ padding: 10px;
+}
+.satisfaccion_tarjeta_dos{
+    width: 30%;
+    margin: 1rem;
+    background:rgb(14, 164, 184);
+}
+.satisfaccion_tarjeta_tres{
+    width: 30%;
+    margin: 1rem;
+    background:rgb(223, 124, 11);
+}
+
+.ofrecer_ul{
+    width: 100%;
+    border: 1px solid blueviolet;
+    padding: 15px   ;
+    list-style: none;
+    align-content: space-between;
+}
+.ofrecer_ul li{
+    padding: auto;
+    text-align: left;
+    align-content: space-between;
+}
+.ofrecer_ul li p{
+    text-align: center;
+    padding: 10px;
+}
+.fundadores{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.carrusel{
+    align-items: center;
+    animation   : ani 16s ease-out infinite alternate;
+  }
+  .carrusel_li{
+      display: flex;
+  }
+ .card_slader_figure{
+     width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+ }
+ .card_slader_uno{
+     width: 30%;
+     border: 1px solid blue;
+ }
+ .card_slader_img{
+     width: 100%;
+ }
+ .card_slaider_dos{
+     width: 70%;
+     border: 2px solid violet;
+     font-size: 16px;
+     padding: 10px;
+     margin: auto;
+
+ }
+
+.footer{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+.footer_uno{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer_container_uno{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+:root{
+    --background-color: #f0f4f8;
+    --background-color-dos:#f1f1ef ;
+    --color-principal: #495FD7;
+    --text-titulo-color: #010957;
+    --text-color-uno: #000000;
+    --text-color-dos: #ffffff;
+    --font-family:'Rubik', font-size;
+    --button-color: #8093fc;
+    --button-color-dos: #01c59b;   
+    --clippy: clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+*/
+.titulo, h2{
+    color: var(--text-titulo-color);
+    font-size: 26px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 2%;
+
+}
+p {
+    font-size: 16px;
+}
+.ofrecer_ul{
+    padding: 15px   ;
+    list-style: none;
+    align-content: space-between;
+}
+.ofrecer_ul li{
+    padding: auto;
+    text-align: left;
+    align-content: space-between;
+}
+.ofrecer_ul li p{
+    text-align: center;
+    padding: 10px;
+}
+

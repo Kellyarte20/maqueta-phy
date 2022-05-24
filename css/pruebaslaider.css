@@ -1,0 +1,44 @@
+@import url(/css/index.css);
+li {
+  text-decoration: none;
+}
+.card_slader {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+ }
+      
+ .card_slader_figure{
+   align-items: center;
+   border: 1px solid blue ;
+   padding: 10px;
+   overflow: ;
+ }
+ .card_slader_uno{
+   border: 1px solid red;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+ }
+ .card_slaider_uno_text h2{
+   padding: 10px;
+   text-align: center;
+ }
+ .card_slader_img{
+   width: 40%;
+   height: 40%;
+   border: 2px solid violet;
+   display: flex;
+   text-align: center;
+
+   
+ }
+ .card_slaider_dos{
+   border: 1px solid yellowgreen;
+   padding: 10px;
+   text-align: center;
+ }

@@ -1,0 +1,38 @@
+.menu_works * { 
+    list-style:none;
+}
+.menu_works li{
+
+     line-height:120%;
+     border: 1px solid blue;
+     padding: 1rem;
+     color: cornflowerblue;
+     font-size: 20px;
+     font-weight: 500;
+    }
+.menu_works li a:before{ 
+    content:url(/assets/flechas/flecha-izquierda-_1_.svg);
+    color: white;
+    }
+
+.menu_works input[name="list"] {
+	position: absolute;
+	left: -1000em;
+	}
+.menu_works label:before{
+     content: url(/assets/flechas/flecha-izquierda-_1_.svg); 
+     margin-right:4px;
+    }
+.menu_works input:checked ~ label:before{
+     content: url(/assets/flechas/flecha-hacia-abajo.svg);}
+.menu_works .interior{
+    display: none;
+}
+.menu_works .interior li{
+    color: black;
+}
+.menu_works input:checked ~ ul{
+    display:block;} 
+ .ready_card{
+     padding: 15px;
+ }

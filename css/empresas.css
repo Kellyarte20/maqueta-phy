@@ -1,0 +1,102 @@
+@import "/css/index.css";
+
+.maincontainer
+{   align-items: center;
+    width: 90%;
+    height: 299px;
+    margin: 10px;
+    border:1px solid var(--text-titulo-color);
+    border-radius: 10px;   
+    font-size: 16px;
+    
+}
+
+img
+{
+   border-radius: 10px ;
+}
+.back{
+    text-align: center;
+    padding: 20px;
+}
+
+.back h2
+{
+    position: absolute;
+    text-align: center;
+    color: var(--button-color);
+    padding: 10px;
+}
+
+.back p
+{
+    position: absolute;
+    top: 50px;
+    font-size: 15px;
+    padding: 10px;
+    
+}
+
+.front h2
+{
+    position: absolute;
+    padding: 10px;
+    top: 250px;
+    color: var(--text-titulo-color);
+    text-align: center;
+    justify-content: center;
+}
+
+
+.maincontainer > .front
+{
+    position: absolute;
+    transform: perspective(600px) rotateY(0deg);
+    
+    width: 90%;
+    height: 290px;
+    
+    backface-visibility: hidden; /* cant see the backside elements as theyre turning around */
+    transition: transform .5s linear 0s;
+}
+
+
+.maincontainer > .back
+{
+    position: absolute;
+    transform: perspective(600px) rotateY(180deg);
+    background:var(--text-titulo-color);
+    color: var(--text-color-dos);
+    width: 85%;
+    height: 290px;
+    border-radius: 10px;
+    padding: 5px;
+    backface-visibility: hidden;
+    transition: transform .5s linear 0s;
+}
+
+.maincontainer:hover > .front
+{
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.maincontainer:hover > .back
+{
+    transform: perspective(600px) rotateY(0deg);
+}
+
+@media (max-width: 700px){
+    .works{
+        background:var(--background-color);
+        border-radius: 15px solid rgb(55, 19, 216);
+        justify-content: center;
+    }
+    .works_dos_img, .works_tres_img{
+        padding: 1%;
+        width: 100%;
+        object-fit: cover;
+        display: block;  
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }   
+}
